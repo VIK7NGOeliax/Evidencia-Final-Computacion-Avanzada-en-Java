@@ -1,8 +1,12 @@
+import javax.swing.*;
 import java.awt.*;
 public class NewJFrame extends javax.swing.JFrame{
     public NewJFrame() {
         initComponents();
     }
+
+    private javax.swing.JSeparator jSeparator1;
+
     @SuppressWarnings("unchecked")
     private void initComponents() {
 
@@ -281,7 +285,7 @@ public class NewJFrame extends javax.swing.JFrame{
         Edad_Final.setText(Integer.toString(obj.getEdad()));
 
         if(obj.getColor()==1){
-            I.setForeground(Color.YELLOW);
+            I.setForeground(Color.blue);
         }
         if(obj.getColor()==2){
             I.setForeground(Color.GREEN);
@@ -345,5 +349,5 @@ public class NewJFrame extends javax.swing.JFrame{
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JSeparator jSeparator1;
+
 }
